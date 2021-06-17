@@ -30,7 +30,7 @@ namespace Airport_WebAPI
             //Inscription du DbContext pour utilisation par EntityFramework
             services.AddDbContext<Airport_WebAPI.DB.AirportContext>
                 (
-                    options => options.UseSqlServer("Data Source=DESKTOP-HRHC1F9\\SQLEXPRESS;Initial Catalog=Air Shawinigan; user=mywebsite; password=website")
+                    options => options.UseSqlServer("Data Source=DESKTOP-HRHC1F9\\SQLEXPRESS;Initial Catalog=AirShawi; user=sa; password=password")//wow much secure
 
                 );
 
